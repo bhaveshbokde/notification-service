@@ -1,0 +1,16 @@
+# Build output — the image builds its own.
+target/
+logs/
+
+# SECRETS. The compose file passes these in as environment variables; baking
+# them into an image layer would make them extractable with `docker history`.
+.env
+.env.*
+!.env.example
+
+.git/
+.gitignore
+.idea/
+*.iml
+docs/
+README.md
