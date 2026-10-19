@@ -506,7 +506,7 @@ knowing:
 ./mvnw clean package              # build the jar
 ```
 
-**255 tests, 81.2% line coverage.** Full breakdown, including the three real
+**255 tests, 81.1% line coverage.** Full breakdown, including the three real
 bugs the tests found, in **[docs/TEST-REPORT.md](docs/TEST-REPORT.md)**.
 
 The integration tests need `notification_test_db` migrated
